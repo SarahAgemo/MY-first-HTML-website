@@ -1,0 +1,94 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: transparent;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #0c0c0c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+    display: flex;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #C7C8CC;
+    color: black;
+    margin-inline: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-image: url(/images/back1.avif);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .topnav img{
+    height: 60px;
+  }
+body{
+  background-color: #E3E1D9;
+  margin: 15px;
+  align-content: center;
+}
+.firstp{
+  text-align: justify;
+}
+h1{
+
+  text-align:center;
+  margin-left: 100px;
+  
+}
+
+
+
+h2{
+  text-align: center;
+}
+
+.dp{
+  width: 300px;
+  height: 300px;
+  border: 10px solid transparent;
+  border-image: url(/images/back1.avif) 30 round;
+  border-image-repeat: stretch;  
+  border-image-slice: 30px;
+}
+  
+
+
+.history{
+  background-image: url(/images/back1.avif);
+  justify-content: space-between;
+  
+
+}
+
+.life{
+  background-image: url(/images/back1.avif);
+  justify-content: space-between;
+
+}
+
+.future{
+  background-image: url(/images/back1.avif);
+  
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+*{
+  font-family: serif;
+}
